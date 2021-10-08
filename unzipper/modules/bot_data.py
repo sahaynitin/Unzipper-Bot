@@ -117,7 +117,7 @@ Hi **{}**, I'm **KOT Unzipper Bot** 😇!
  - `Please make sure that you selected the right mode!`
  - `May be Your archive format isn't supported 😔`
 
-**Please report this at @Nexa_bots if you think this is a serious error**
+**Please report this at @KOT_REPORS if you think this is a serious error**
     """
 
     ERROR_TXT = """
@@ -126,7 +126,7 @@ Hi **{}**, I'm **KOT Unzipper Bot** 😇!
 **ERROR:** {}
 
 
-**Please report this at @Nexa_bots if you think this is a serious error**
+**Please report this at @KOT_REPORS if you think this is a serious error**
     """
 
     CANCELLED_TXT = """
