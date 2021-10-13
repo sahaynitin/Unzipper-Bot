@@ -52,7 +52,7 @@ async def extract_dis_archive(client: Client, message: Message):
     user_id = message.from_user.id
     download_path = f"{Config.DOWNLOAD_LOCATION}/{user_id}"
     if os.path.isdir(download_path):
-        return await unzip_msg.edit("`Already one process is going on, Don't spam you idiot 😑!` \n\nWanna Clear You Files from my server? Then just send **/clean** command!")
+        return await unzip_msg.edit("`Already one process is going on, Don't spam 😑!` \n\nWanna Clear You Files from my server? Then just send **/clean** command!")
     await unzip_msg.edit("**What do you want?**", reply_markup=Buttons.CHOOSE_E_BTN)
 
 # Database Commands
@@ -106,7 +106,7 @@ async def broadcast_dis(client: Client, message: Message):
         return await bc_msg.edit("`Reply to a message to broadcast!`")
     users_list = await get_users_list()
     # trying to broadcast
-    await bc_msg.edit("`Broadcasting has started, This may take while 🥱!`")
+    await bc_msg.edit("Broadcasting has started, This may take while 🧒 !")
     success_no = 0
     failed_no = 0
     for user in users_list:
