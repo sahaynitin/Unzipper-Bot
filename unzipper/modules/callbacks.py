@@ -105,7 +105,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
             # Upload extracted files
             paths = get_files(path=ext_files_dir)
             i_e_buttons = await make_keyboard(paths=paths, user_id=user_id, chat_id=query.message.chat.id)
-            await query.message.edit("Select Files to Upload!", reply_markup=i_e_buttons)
+            await query.message.edit("Select Files to Upload 🧒 !", reply_markup=i_e_buttons)
         except Exception as e:
             try:
                 shutil.rmtree(download_path)
