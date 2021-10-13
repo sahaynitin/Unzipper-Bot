@@ -56,7 +56,7 @@ Hi **{}**\n\nI am **Telly Unzip Robot** !
 
 I can extract archives like zip, rar, tar etc.
 
-**Made With 💕 by Tellybots_4u**
+**Made With 💕 by @Tellybots_4u**
     """
 
     HELP_TXT = """
