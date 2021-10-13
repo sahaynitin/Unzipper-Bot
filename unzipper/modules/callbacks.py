@@ -41,7 +41,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
                 url = r_message.text
                 # Double check
                 if not re.match(https_url_regex, url):
-                    return await query.message.edit("`That's not a valid url 😑!`")
+                    return await query.message.edit("That's not a valid url 😑!")
                 s = ClientSession()
                 async with s as ses:
                     unzip_head = await ses.head(url)
@@ -73,7 +73,7 @@ async def unzipper_cb(unzip_bot: Client, query: CallbackQuery):
             
             elif splitted_data[1] == "tg_file":
                 if r_message.document is None:
-                    return await query.message.edit("`Give me an Archive to extract !`")
+                    return await query.message.edit("Give me an Archive to extract !")
                 # Makes download dir
                 os.makedirs(download_path)
                 # Send Logs
