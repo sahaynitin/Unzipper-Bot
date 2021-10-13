@@ -52,7 +52,7 @@ class Buttons:
 
 class Messages:
     START_TEXT = """
-Hi **{}**\n\n I am **Telly Unzip Robot** !
+Hi **{}**\n\nI am **Telly Unzip Robot** !
 
 I can extract archives like zip, rar, tar etc.
 
