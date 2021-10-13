@@ -8,8 +8,8 @@ class Buttons:
     START_BUTTON=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Help 📜", callback_data="helpcallback"),
-                InlineKeyboardButton("About ⁉️", callback_data="aboutcallback")
+                InlineKeyboardButton("Help ❔", callback_data="helpcallback"),
+                InlineKeyboardButton("👲 About", callback_data="aboutcallback")
             ]
         ]
     )
@@ -17,15 +17,15 @@ class Buttons:
     CHOOSE_E_BTN=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("File Extract 📂", callback_data="extract_file|tg_file|no_pass"),
-                InlineKeyboardButton("File (Password) Extract 📂", callback_data="extract_file|tg_file|with_pass")
+                InlineKeyboardButton("🗃️Extract", callback_data="extract_file|tg_file|no_pass"),
+                InlineKeyboardButton("🗃️🔑Extract", callback_data="extract_file|tg_file|with_pass")
             ],
             [
-                InlineKeyboardButton("🔗 Url Extract 📂", callback_data="extract_file|url|no_pass"),
-                InlineKeyboardButton("🔗 (Password) Url Extract 📂", callback_data="extract_file|url|with_pass")
+                InlineKeyboardButton("🔗Extract", callback_data="extract_file|url|no_pass"),
+                InlineKeyboardButton("🔗🗃️🔑Extract", callback_data="extract_file|url|with_pass")
             ],
             [
-                InlineKeyboardButton("Cancel ❌", callback_data="cancel_dis")
+                InlineKeyboardButton("⛔ Cancel", callback_data="cancel_dis")
             ]
         ]
     )
@@ -36,7 +36,7 @@ class Buttons:
                 InlineKeyboardButton("Clean My Files 😇", callback_data="cancel_dis")
             ],
             [
-                InlineKeyboardButton("TF! Nooo 😳", callback_data="nobully")
+                InlineKeyboardButton("No Not Clean 😳", callback_data="nobully")
             ]
         ]
     )
@@ -44,7 +44,7 @@ class Buttons:
     ME_GOIN_HOME=InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("Back 🏡", callback_data="megoinhome")
+                InlineKeyboardButton("🔙 Back", callback_data="megoinhome")
             ]
         ]
     )
@@ -52,22 +52,22 @@ class Buttons:
 
 class Messages:
     START_TEXT = """
-Hi **{}**, I'm **KOT Unzipper Bot** 😇!
+Hi **{}**\n\n I am **Telly Unzip Robot** !
 
-`I can extract archives like zip, rar, tar etc.`
+I can extract archives like zip, rar, tar etc.
 
-**Made with ❤️ by @KOT_BOTS**
+**Made With 💕 by Tellybots_4u**
     """
 
     HELP_TXT = """
-**How To Extract? 🤔**
+**How To Extract ❔**
 
 `1. Send the file or link that you want to extract.`
-`2. Click on extract button (If you sent a link use "Url Extract" button. If it's a file just use "File Extract" button).`
+`2. Click on extract button (If you sent a link use "🔗Extract" button. If it's a file just use "🗃️Extract" button).`
 
 
 **Note:**
-    **1.** `If your archive is password protected select` **(Password) Extract 📂** `mode. Bot isn't a GOD to know your file's password so If this happens just send that password!`
+    **1.** `If your archive is password protected select` **🗃️🔑Extract** `mode. Bot isn't a GOD to know your file's password so If this happens just send that password!`
     
     **2.** `Please don't send corrupted files! If you sent a one by a mistake just send` **/clean** `command!`
     
@@ -75,15 +75,15 @@ Hi **{}**, I'm **KOT Unzipper Bot** 😇!
     """
 
     ABOUT_TXT = """
-**About Nexa Unzipper Bot,**
+**About Me**
 
-✘ **Language:** [Python](https://www.python.org/)
-✘ **Framework:** [Pyrogram](https://docs.pyrogram.org/)
-✘ **Source Code:** [KOT_BOTS](https://t.me/KOT_BOTS)
-✘ **Developer:** [KOT DEVELOPER](https://t.me/KOT_FREE_DE_LA_HOYA_OFF)
+📚 **Language:** [Python](https://www.python.org/)
+📦 **Framework:** [Pyrogram](https://docs.pyrogram.org/)
+💫 **Source Code:** [Click here](https://t.me/tellybots_digital)
+🧒 **Developer:** [TellyBots4u](https://t.me/tellybots_4u)
 
 
-**Made with ❤️ by @KOT_BOTS**
+**Made With 💕 By @Tellybots_4u**
     """
 
     LOG_TXT = """
@@ -117,16 +117,16 @@ Hi **{}**, I'm **KOT Unzipper Bot** 😇!
  - `Please make sure that you selected the right mode!`
  - `May be Your archive format isn't supported 😔`
 
-**Please report this at @KOT_REPORS if you think this is a serious error**
+**Please report this at @Tellybots_support if you think this is a serious error**
     """
 
     ERROR_TXT = """
-**Error Happend 😕!**
+**Error Happened 😕!**
 
 **ERROR:** {}
 
 
-**Please report this at @KOT_REPORS if you think this is a serious error**
+**Please report this at @Tellybots_4u if you think this is a serious error**
     """
 
     CANCELLED_TXT = """
